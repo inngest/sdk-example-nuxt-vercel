@@ -1,5 +1,4 @@
 import { serve } from "inngest/nuxt";
-import fns from "~~/inngest";
-import { inngest } from "~~/inngest/client";
+import { inngest, functions } from "~~/inngest";
 
 export default defineEventHandler(serve(inngest, fns));
